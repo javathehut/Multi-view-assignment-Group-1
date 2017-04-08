@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <!-- Load Bootstrap -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+        <style>
+            h4 {
+                font-size: 2em;
+
+            }
+            h5 {
+                font-size: 1.5em;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div style="padding:50px;"class="container">
+            <!-- Back to index.html -->
+            <a href="../index.html" class="btn btn-info">back</a>
+            <!-- Employee Name -->
+            <h1>David Kajpust</h1>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="../index.html"><img class="img-circle" style="border:2px solid #DDD;width:100px;display:inline;" src="../images/david.jpg"/></a>
+                </div>
+                <div class="media-body">
+                <!-- Employee Position -->
+                    <h4 class="media-heading">Dad of the Year</h4>
+                    <div>
+                        <!-- Employee Bio -->
+                        <h5>Age</h5>
+                        <p>
+                            25
+                        </p>
+                        <h5>Email</h5>
+                        <p>
+                            kajpustd@gmail.com
+                        </p>
+                        <button onclick="callForAGoodTime()">Contact Dave</button>
+                        <p id="joke" style="color: blueviolet"></p>
+                        <h5>Bio</h5>
+                        <p>
+                            Reads books. Eats food. Walks on 2 feet. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<script>
+
+function callForAGoodTime(){
+    document.getElementById("joke").innerHTML = "Call 204-894-7218 for a good time ;)";
+}
+
+</script>
+
+    </body>
+</html>
+            
